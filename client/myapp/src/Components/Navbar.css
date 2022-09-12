@@ -1,0 +1,44 @@
+.navbar{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    box-shadow: 0px 1px 10px black;
+    background-color: #272727;
+}
+button{
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    color: #adadad;
+    position: relative;
+    background: none;
+    font-size: 18px;
+    font-family: "Poppin",sans-serif;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+button:hover{
+    color: #ffffff;
+}
+button::after{
+   position: absolute; 
+   content: "";
+   width: 0%;
+   height: 3px;
+   background-color:#fd2b6a ;
+   left: 0;
+   bottom: 0;
+   transition: 0.5s;
+}
+button:hover:after{
+ width: 100%;
+}
+
+.login{
+    color: yellow;
+}
+@media only screen and (max-width: 600px){
+    
+}
